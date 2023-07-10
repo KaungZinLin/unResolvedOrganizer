@@ -45,7 +45,8 @@ file_extensions = {
     'mov': 'Videos',
     'heif': 'Images',
     'hevc': 'Images',
-    'playground': 'Swift Files'
+    'playground': 'Swift Playground Files',
+    'iso': 'Disc Image ISO File'
 }
 
 # Organize Files
@@ -66,7 +67,7 @@ def organize_files():
 
         messagebox.showinfo("Success!", "Your files have been Organized!")
     except:
-        messagebox.showinfo("Error!", "An unknown error has occured!")
+        messagebox.showinfo("Error!", "An unknown error has occurred!")
 
 # GUI Setup
 window = Tk()
@@ -79,7 +80,7 @@ window.resizable(False, False)
 app_name_label = Label(window, text="unResolvedOrganizer", font=('Areal', 25))
 app_name_label.grid(row=0, column=0, sticky='w')
 
-app_info_label = Label(window, text="unResolvedOrganizer is a free and open-source Mac that allows you to organize files!")
+app_info_label = Label(window, text="unResolvedOrganizer is a free and open-source Mac App that allows you to organize files!")
 app_info_label.grid(row=1, column=0)
 
 placeholder_label = Label(window, text="")
@@ -88,7 +89,7 @@ placeholder_label.grid(row=2, column=0)
 github_label = Label(window, text="\nGitHub: https://github.com/KaungZinLin/unResolvedOrganizer")
 github_label.grid(row=4, column=0, sticky='w')
 
-copyright_label = Label(window, text="COPYRIGHT 2023 unResolved. DO NOT DISTRIBUTE!")
+copyright_label = Label(window, text="License: GNU - General Public License v3.0")
 copyright_label.grid(row=5, column=0, sticky='w')
 
 # Buttons

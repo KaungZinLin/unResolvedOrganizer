@@ -1,7 +1,8 @@
 # unResolvedOrganizer
 An app to organize files on your Mac!
 
-![SCR-20230704-tfgs](https://github.com/KaungZinLin/unResolvedOrganizer/assets/116542070/c8ac5a05-824d-4a56-8745-b98a08d2efbc)
+![SCR-20230710-rxmf](https://github.com/KaungZinLin/unResolvedOrganizer/assets/116542070/ae92ac49-74d5-4b53-a70e-a922dbcc9c17)
+
 
 FEATURES OF THE APP:
 1. Sort/ Organize Files into Folders depending on their File Extensions
